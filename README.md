@@ -1,8 +1,8 @@
-# SENTINEL 🛡️
+# SOC-SENTINEL 🛡️
 
 Autonomous SOC Triage & Containment Agent — with a live Kubernetes security assessment lab
 
-SENTINEL is an autonomous security operations agent that triages AWS GuardDuty simulated findings without human intervention. It combines real threat intelligence feeds, AWS service queries via MCP (Model Context Protocol), and Claude AI chain-of-thought reasoning to make QUARANTINE or MONITOR decisions — and executes containment automatically.
+SOC-SENTINEL is an autonomous security operations agent that triages AWS GuardDuty simulated findings without human intervention. It combines real threat intelligence feeds, AWS service queries via MCP (Model Context Protocol), and Claude AI chain-of-thought reasoning to make QUARANTINE or MONITOR decisions — and executes containment automatically.
 
 Built to demonstrate AI-native security engineering: agentic workflows, MCP server design, prompt injection resistance, and FedRAMP-aligned security controls — all running on a CIS-hardened Docker + Kubernetes infrastructure.
 
