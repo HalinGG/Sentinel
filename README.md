@@ -27,7 +27,7 @@ Built to demonstrate AI-native security engineering: agentic workflows, MCP serv
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│  SENTINEL Agent (agent.py)                                      │
+│  SOC-SENTINEL Agent (agent.py)                                      │
 │                                                                 │
 │  GuardDuty Finding ──► Chain-of-Thought Triage (Claude API)    │
 │                              │                                  │
@@ -67,7 +67,7 @@ Built to demonstrate AI-native security engineering: agentic workflows, MCP serv
 
 ## Simulated Attack Scenario
 
-SENTINEL detects a realistic AWS account compromise progression:
+SOC-SENTINEL detects a realistic AWS account compromise progression:
 
 - **T+00:00** — `compromised-user` lists buckets from `203.0.113.42` (reconnaissance)
 - **T+05:00** — `compromised-user` reads objects (data exfiltration)
@@ -80,7 +80,7 @@ SENTINEL detects a realistic AWS account compromise progression:
 
 ## Red Team Findings
 
-SENTINEL was tested against three prompt injection attack vectors (OWASP LLM Top 10 — LLM01):
+SOC-SENTINEL was tested against three prompt injection attack vectors (OWASP LLM Top 10 — LLM01):
 
 | Attack | Method | Result |
 |---|---|---|
